@@ -9,7 +9,7 @@ Keeps the pipeline moving with drafts the user can send in two minutes. It draft
 
 ## 0. Before you start
 1. Confirm today's date with the user (scheduled run: use the system date and state it).
-2. Read the tracker: `jobs`, `tasks`, `contacts`.
+2. Read the tracker: `jobs`, `tasks`, `contacts`. Rows whose text starts with "EXAMPLE ROW" are demo data from the kit: handle them like real rows so the user can see how the skill works, label them "(example)" in the report, never write to them, and leave them out of the weekly numbers.
 3. If the user reports news first (reply, rejection, invitation, application sent), record that before anything else: `status`, `applied`, `first_reply` (ISO date of the first human reply), `notes_rejection` or `interview_notes`, and set the linked tasks to `done`.
 
 ## 1. What is due

@@ -1,12 +1,12 @@
 # Job Search: Project Instructions
 
-Replace every {{PLACEHOLDER}}. Delete lines that do not apply to you.
+Replace every placeholder in double curly braces. Delete lines that do not apply to you. When you are done, a search for two opening curly braces must find nothing.
 
 ## Goal
 {{FIRST_NAME}} needs a paid {{JOB_TYPES}} job (for example: Werkstudent, HiWi, or a small job) by {{DEADLINE_OR_REASON}}.
 - **Lives in:** {{CITY}}.
 - **Region:** {{REGION_CITIES}}. A commute of up to {{MAX_COMMUTE}} one way is acceptable. Remote and hybrid roles: {{YES_OR_NO}}.
-- **Hours:** at most {{PERMIT_HOURS}} hours per week during the lecture period, all jobs together. In the semester break: {{BREAK_HOURS_OR_ASK}}.
+- **Hours:** at most {{PERMIT_HOURS}} hours per week during the lecture period, all jobs together. In the semester break: {{BREAK_HOURS_OR_ASK}} (a number, or "ask me").
 - **Study status:** {{STUDY_PROGRAMME}} at {{UNIVERSITY}}, semester {{SEMESTER}}, graduation expected {{GRADUATION}}.
 - **Timetable:** {{DAYS_AT_UNIVERSITY}}. Free for work: {{FREE_DAYS}}.
 - **Start:** available from {{START_DATE}}.
@@ -35,10 +35,10 @@ Replace every {{PLACEHOLDER}}. Delete lines that do not apply to you.
 - It needs more than {{PERMIT_HOURS}} hours per week in the lecture period, or is full-time only.
 - It asks for German at: {{GERMAN_SKIP_PHRASES}}
   (Suggested for A2–B1: "sehr gut", "fließend", "verhandlungssicher", "C1", "muttersprachlich". For B2: "verhandlungssicher", "C2", "muttersprachlich".)
-- The commute is longer than {{MAX_COMMUTE}} and more than {{MAX_ONSITE_DAYS_FAR}} on-site day(s) per week are required.
+- The commute is longer than {{MAX_COMMUTE}} and more than {{MAX_ONSITE_DAYS_FAR}} on-site day(s) per week are required (a number, for example 1).
 - It needs something {{FIRST_NAME}} does not have: {{MISSING_REQUIREMENTS}} (for example: driving licence, security clearance, a finished degree).
 - The company is on cooldown: {{COOLDOWN_LIST_OR_NONE}} (companies that rejected you recently; retry after about three months or with a referral).
-- Mandatory internships: {{POSSIBLE_OR_NOT}}. Voluntary internships: {{POSSIBLE_OR_NOT}}.
+- Mandatory internships: {{MANDATORY_INTERNSHIPS_POSSIBLE}}. Voluntary internships: {{VOLUNTARY_INTERNSHIPS_POSSIBLE}}. (Write "possible" or "not possible".)
 
 ## Job verification rule
 Every job gets one of three liveness levels:

@@ -38,7 +38,7 @@ Add to the project files:
 **Checkpoint:** in a new chat in the project, ask: "Which CV variants do I have and what is my weekly hour limit?" The answer must match what you wrote.
 
 ## Minute 35–45: add the skills
-For each folder in `skills/`: make a ZIP file of the folder (the folder itself must be the root of the ZIP) and upload it as a skill in Claude.
+Download the four skill ZIP files from the latest release of this repository, or make them yourself: for each folder in `skills/`, make a ZIP file of the folder (the folder itself must be the root of the ZIP). Upload each ZIP as a skill in Claude.
 Help: [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude) and [How to create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
 
 If you cannot upload skills on your plan, keep the four `SKILL.md` files in the project files instead and say "follow job-scan" and so on. It works the same way, a little slower.
@@ -50,14 +50,14 @@ Choose one:
 - **Simple (works everywhere):** add `tracker/jobs.csv`, `tracker/tasks.csv` and `tracker/contacts.csv` to the project files. Delete the example rows later. Claude returns updated files after each change, and you replace the old ones.
 - **Page (experimental):** paste `tracker/build-prompt.md` into a chat in the project. Claude builds a tracker page. Put its link into the instructions at `{{TRACKER_LOCATION}}`.
 
-**Checkpoint:** ask "Read the tracker and tell me how many jobs it holds." You should get "1" (the example row).
+**Checkpoint:** ask "Read the tracker and tell me how many jobs it holds." You should get "1" (the example row). Then say "what's due?". The example job is dated January 2026, so depending on today's date it shows as due for a follow-up or as ghosted (no reply after 21 days). Either answer means the skill works. Remove the three example rows before your first real scan.
 
 ## Minute 52–60: first scan
 1. On the job sites you use (for example LinkedIn, your university job portal, the Bundesagentur für Arbeit Jobbörse), create job alerts yourself for your search terms and towns. The emails come to you. Claude never signs in to these sites.
 2. In the project, say: **"scan jobs"**.
 3. If an alert email has arrived, paste its text into the chat and say: "add these to the scan".
 
-**Checkpoint:** the report lists each job with a score, a liveness level, a link and a posting date, and the new jobs are in the tracker with status `open`.
+**Checkpoint:** the report lists each job with a score, a liveness level, a link and a posting date, and the new jobs are in the tracker with status `open`. An empty result is normal on the first run. Many career pages load their jobs with JavaScript and cannot be read automatically; the report lists them as "not readable". Open those pages yourself and paste a posting or its link into the chat.
 
 ## After the first hour
 - "make the pack for <job id>" builds one application.

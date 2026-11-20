@@ -1,6 +1,6 @@
 # Germany (DE): work rules for students
 
-**Not legal advice.** Checked on 16 November 2026. Rules and amounts change, and your own residence permit can say something different. What counts is the law, the text on your permit and its supplementary sheet (Zusatzblatt), and the answer of your local Ausländerbehörde. If you are unsure, ask your university's International Office first.
+**Not legal advice.** Checked on 20 November 2026. Rules and amounts change, and your own residence permit can say something different. What counts is the law, the text on your permit and its supplementary sheet (Zusatzblatt), and the answer of your local Ausländerbehörde. If you are unsure, ask your university's International Office first.
 
 ## 1. Who has a limit
 - **Students from EU/EEA countries and Switzerland:** free access to the German labour market, like German students. [DAAD]
@@ -21,10 +21,11 @@ This is a second, separate "20-hour rule". It does not decide whether you may wo
 - **All your jobs are added together** for the 20 hours. [MJZ] [TK]
 - Exceptions exist for work in the evening, at night, at weekends and in the semester break, if it is limited in advance, for at most 26 weeks per year. [MJZ]
 
-## 4. Amounts in 2026
+## 4. Amounts in 2026 and 2027
 - Legal minimum wage: **€13.90 per hour** since 1 January 2026. [MJZ-2026]
 - Minijob limit: **€603 per month** on average. [MJZ-2026]
-- Both are set to change on 1 January 2027. Check the Minijob-Zentrale page before you rely on a number.
+- **From 1 January 2027** (already decided): minimum wage **€14.60 per hour**, Minijob limit **€633 per month**. [BReg]
+- Check the Minijob-Zentrale page before you rely on a number.
 
 ## 5. What this means for the kit
 - Put your weekly limit into `{{PERMIT_HOURS}}`. For most non-EU students in the lecture period this is 20, all jobs together.
@@ -56,4 +57,5 @@ This is a second, separate "20-hour rule". It does not decide whether you may wo
 - **[MJZ]** Minijob-Zentrale, "Werkstudent" (updated 23 February 2026): https://magazin.minijob-zentrale.de/werkstudent/
 - **[MJZ-2026]** Minijob-Zentrale, "Neue Verdienstgrenze in 2026": https://magazin.minijob-zentrale.de/neue-verdienstgrenze-2026/
 - **[TK]** Techniker Krankenkasse, questions on students and interns: https://www.tk.de/firmenkunden/versicherung/versicherung-richtig-einstufen/haeufige-fragen-zu-studenten-und-praktikanten-2036254
+- **[BReg]** Federal Government, "Fragen und Antworten zum Mindestlohn": https://www.bundesregierung.de/breg-de/service/fragen-und-anworten/mindestlohn-faq-1688186
 - **[Uni-HD]** Heidelberg University, "Jobs and internships while studying": https://www.uni-heidelberg.de/en/international-students-jobs-and-internships-while-studying

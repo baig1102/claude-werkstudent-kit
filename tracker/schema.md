@@ -50,4 +50,5 @@ Three tables. The skills depend on these names.
 ## Rules
 - The tracker is the single source of truth. Update it after every change.
 - Nothing is deleted. Jobs end as `rejected`, `dropped`, or `closed: ghosted`.
+- One exception: the rows that start with "EXAMPLE ROW" are demo data shipped with the kit. You remove them yourself once setup works. Skills never delete them and never count them in the weekly numbers.
 - `applied` is set only after the user says the application was sent.

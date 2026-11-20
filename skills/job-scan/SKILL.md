@@ -18,15 +18,15 @@ All personal values (towns, hours, language level, role families, cooldown list)
 ## 1. Sources
 Search window: last 24 hours first, then 7 days, then 30 days only if fewer than 2 results.
 - **Every run:** job-alert emails or posting text the user pasted into this chat, and any posting page the user opened and asked you to read.
-- **Rotation over the week** (use the day of the run; in a manual run ask or take the next group):
-  - first run of the week: watchlist company pages, Group A;
-  - second run: university and research job pages, and small-job employers while no contract is signed;
-  - third run: watchlist company pages, Group B, and public job boards for discovery only (then look for the same job on the company's own portal).
+- **Rotation over the week**, by the weekday of the run (manual and scheduled runs alike; the user may name another group):
+  - Monday or Tuesday: watchlist company pages, Group A;
+  - Wednesday or Thursday: university and research job pages, and small-job employers while no contract is signed;
+  - Friday to Sunday: watchlist company pages, Group B, and public job boards for discovery only (then look for the same job on the company's own portal).
 - Any company with a tracker job in status `open` or `applied` may be checked on any day.
 
 **Sign-in sites (LinkedIn, XING, and any site that shows a login wall):** never search, scroll or collect postings there, never sign in, never use a scraper or an API. Use only what the user pasted or the single page the user opened. If a page shows a sign-in wall or a CAPTCHA, stop that source and say so.
 
-If a site blocks automated reading, do not work around it. Mark the job `unverified` and ask the user to open the page.
+**Pages you cannot read.** Many career portals load their job list with JavaScript, so the page text shows no postings, and some block automated reading. In both cases do not work around it (no other tools, no mirrors, no caches). List the source under "not readable" in the report and ask the user to open it and paste either the posting text or the link to one single posting page; single posting pages are often readable even when the list is not. A job you only know from such a list is `unverified`.
 
 ## 2. Hard gates: skip the job (do not add it) if any is true
 Apply every gate in the project instructions: weekly hours, German level phrases, commute and on-site days, missing requirements, cooldown companies, internship rules. Also skip:
@@ -61,7 +61,7 @@ If a tracked `open` job has disappeared from its portal, do not change its statu
 
 ## 7. Report
 Scheduled runs: at most 6 lines. Manual runs: a short table.
-Date and sources covered; new jobs (score, company and role, liveness, link, posting date, recommended CV, letter worth it? yes only if compulsory, or score 70 or more and posted within 14 days and a person will read it); possibly closed postings; tasks due today; sources not covered and why. In manual runs end with: "Tell me which ones to build an application pack for."
+Date and sources covered; sources not readable; new jobs (score, company and role, liveness, link, posting date, recommended CV, letter worth it? yes only if compulsory, or score 70 or more and posted within 14 days and a person will read it); possibly closed postings; tasks due today; sources not covered and why. In manual runs end with: "Tell me which ones to build an application pack for."
 
 ## Guardrails
 - Read-only everywhere outside the tracker. Never click apply, save, follow, message or sign up. Never enter the user's data into a form. Never sign in anywhere.
@@ -69,4 +69,4 @@ Date and sources covered; new jobs (score, company and role, liveness, link, pos
 - Numbers (applicants, dates, pay, commute) only as observed or from the commute table; write "not stated" otherwise.
 
 ## Failure modes
-Portal blocks reading → mark unverified and ask the user to open it. Sign-in wall or CAPTCHA → stop that source and say so. Version conflict on write → re-read the row and retry once. Tracker unreachable → stop and report; do not work from memory.
+Portal blocks reading or shows no postings as text → list it as "not readable", ask the user to open it and paste a posting or a single posting link. Sign-in wall or CAPTCHA → stop that source and say so. Version conflict on write → re-read the row and retry once. Tracker unreachable → stop and report; do not work from memory.

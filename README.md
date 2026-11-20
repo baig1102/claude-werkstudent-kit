@@ -7,7 +7,7 @@ You copy one instruction template, four skills and a tracker template into your 
 Unofficial. Not affiliated with Anthropic. Not legal advice.
 Maintained by Mirza Muhted Baig (github.com/baig1102).
 
-**Status:** tested November 2026, Germany only. What exactly was tested is listed in [docs/tested.md](docs/tested.md).
+**Status:** v0.1, tested November 2026, Germany only. What exactly was tested is listed in [docs/tested.md](docs/tested.md).
 
 ## What is in the kit
 
@@ -25,6 +25,9 @@ Maintained by Mirza Muhted Baig (github.com/baig1102).
 | Germany rules | [countries/de.md](countries/de.md) | Work limits for students, with official sources. |
 
 ## Quick start
+
+The four skills are also attached as ready-to-upload ZIP files to each [release](https://github.com/baig1102/claude-werkstudent-kit/releases/latest).
+
 
 Follow [docs/first-hour.md](docs/first-hour.md). Short version:
 
@@ -55,6 +58,10 @@ Dieses Repository enthält eine fertige Vorlage für ein Claude-Projekt. Sie hil
 - **Arbeitsrecht:** Die Regeln für Studierende aus Nicht-EU-Staaten stehen mit offiziellen Quellen in [countries/de.md](countries/de.md). Das ist keine Rechtsberatung. Verbindlich sind Ihr Aufenthaltstitel und die Auskunft Ihrer Ausländerbehörde.
 - **Start:** [docs/first-hour.md](docs/first-hour.md) (auf Englisch).
 - **Stand:** getestet im November 2026.
+
+## Checking the kit
+
+`python3 scripts/check_kit.py` checks the skill frontmatter, the tracker CSV columns against the schema, stray placeholders and relative links. It runs on every push. `python3 scripts/build_skill_zips.py` builds the skill ZIPs into `dist/`.
 
 ## Other countries
 
