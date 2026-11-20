@@ -1,0 +1,7 @@
+# Never commit your own data to a fork of this kit
+my-*/
+private/
+*.docx
+*.pdf
+.DS_Store
+Thumbs.db
